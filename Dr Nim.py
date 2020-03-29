@@ -39,7 +39,6 @@ if opponent != 'a' and opponent != 'b':
     while opponent != 'a' and opponent != 'b':
         print('Invalid input please try again: ', end = '')
         opponent = str(input())
-numcoins = 0
 
 if opponent == 'a':
 
@@ -69,7 +68,7 @@ if opponent == 'b':
             print('Player'+str(Player) + ' enter the number of coins to remove: ', end = '')
             numcoins = int(input())
             if numcoins > 3 or numcoins <= 0:
-                while numcoins > 3 or numcoind <= 0:
+                while numcoins > 3 or numcoins <= 0:
                     print('Invalid input please try again: ', end = '')
                     numcoins = int(input())
             for i in range(numcoins):
